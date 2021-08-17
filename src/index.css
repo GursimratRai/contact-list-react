@@ -11,3 +11,47 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/***************************************** Contact Table ***********************************/
+table{
+  width:100%;
+}
+
+/*table header */
+table th{
+  padding:5px;
+  text-align: left;
+  color:white;
+  font-size: 1.1rem;
+  background-color:rgb(118, 118, 248);
+}
+
+/* for Even row of the table */
+#contact-table tr:nth-child(even) {
+  background-color: #eee;
+}
+
+/* for odd row of the table */
+#contact-table tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+/* Edit and Delete button */
+.action{
+  text-align: center;
+}
+
+/******************************************** Nav bar *******************************************/
+/* Container */
+.header{
+  width:100vw;
+  padding:5px;
+  align-items: center;
+  background: linear-gradient(15deg,rgb(13, 92, 156),rgb(27, 120, 197));
+}
+
+/* Title / Logo */
+.header h1{
+  color:white;
+  margin:0px;
+}
