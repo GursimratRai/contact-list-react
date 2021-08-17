@@ -1,6 +1,32 @@
-# Getting Started with Create React App
+# Contact List App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A contact list application developed with React Js.
+
+## 🔗 Live Link
+
+This is available online [here](https://gursimratrai.github.io/contact-list-react/)
+
+## API Reference
+
+#### Get all items
+
+```http
+  GET https://jsonplaceholder.typicode.com/users
+```
+
+
+| Reference | Method     | Purpose                       |
+| :-------- | :------- | :-------------------------------- |
+| `/`      | `POST` | Returns JSON object contains Info about the contact |
+| `/id`      | `PUT` | Returns JSON object contains updated Info about the contact |
+| `/id`      | `DELETE` | Returns empty JSON object after deleting |
+    
+## Features
+  
+- List all Contacts 
+- Add a new Contact 
+- Edit / Update a Contact 
+- Delete a Contact 
 
 ## Available Scripts
 
