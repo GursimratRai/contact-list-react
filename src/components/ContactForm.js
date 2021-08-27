@@ -59,7 +59,7 @@ const ContactForm = (props) => {
                     label="Name"
                     rules={[{ required: true, message: "Name is Required" }]}
                   >
-                    <Input placeholder="Please enter name" />
+                    <Input type='text' placeholder="Please enter name" />
                   </Form.Item>
                 </Col>
                                                                                    {/* Input Website Name / Link */}
@@ -69,7 +69,7 @@ const ContactForm = (props) => {
                     label="Website"
                     rules={[{ required: true, message: "URL is Required" }]}
                   >
-                    <Input placeholder="Please enter url" />
+                    <Input type='url' placeholder="Please enter url" />
                   </Form.Item>
                 </Col>
               </Row>
@@ -81,7 +81,7 @@ const ContactForm = (props) => {
                     label="Email"
                     rules={[{ required: true, message: "Email is Required" }]}
                   >
-                    <Input placeholder="Please enter email" />
+                    <Input type='email' placeholder="Please enter email" />
                   </Form.Item>
                 </Col>
                                                                                   {/* Input the phone number*/}
@@ -93,7 +93,7 @@ const ContactForm = (props) => {
                       { required: true, message: "Phone number is Required" },
                     ]}
                   >
-                    <Input placeholder="Please enter phone number" />
+                    <Input  type='number' placeholder="Please enter phone number" />
                   </Form.Item>
                 </Col>
               </Row>
@@ -109,7 +109,7 @@ const ContactForm = (props) => {
                       { required: true, message: "Street name is Required" },
                     ]}
                   >
-                    <Input placeholder="Please enter Street name" />
+                    <Input type='text' placeholder="Please enter Street name" />
                   </Form.Item>
                 </Col>
                                                                                         {/* Input City Name */}
@@ -120,7 +120,7 @@ const ContactForm = (props) => {
                       { required: true, message: "city name is Required" },
                     ]}
                   >
-                    <Input placeholder="Please enter City name" />
+                    <Input type='text' placeholder="Please enter City name" />
                   </Form.Item>
                 </Col>
                                                                                   {/* Input Zip Code of the city */}
@@ -129,7 +129,7 @@ const ContactForm = (props) => {
                     name="zipcode"
                     rules={[{ required: true, message: "zipcode is Required" }]}
                   >
-                    <Input placeholder="Please enter Zip code" />
+                    <Input type='number' placeholder="Please enter Zip code" />
                   </Form.Item>
                 </Col>
               </Row>
